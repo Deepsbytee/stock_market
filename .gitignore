@@ -1,0 +1,41 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files – never commit raw or processed data
+data/raw/
+data/processed/
+
+# Trained model artifacts
+models/*.joblib
+models/*.pkl
+
+# Secrets / environment
+.env
+.env.*
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.next/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
